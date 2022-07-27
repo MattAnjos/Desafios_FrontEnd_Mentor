@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body
+{
+    display:flex;
+    align-items: center;
+    min-height: 100%;
+    height: 620px;
+    justify-content: center;
+    background-color:hsl(212, 45%, 89%);
+    margin:auto;
+}
+
+.container
+{
+    display:flex;
+    flex-direction:column;
+    border-radius:15px;
+    max-width: 330px;
+    height:500px;
+    background-color:white;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px 0;
+
+}
+
+.texto
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align:center;
+    font-size:15px;
+    font-family: Outfit;
+    font-weight: 400;
+    max-width: 80%;
+    color: hsl(220, 15%, 55%);
+    padding: 0;
+    height: 40%;
+}
+
+.texto h1 
+{
+    font-size:21px;
+    font-weight:700;
+    color:hsl(218, 44%, 22%);
+    padding: 10px 0;
+    margin: 0;
+    
+   
+}
+
+.texto p
+{
+    margin-top: 10px;
+}
+
+.texto .attribution 
+{ 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 10px;
+    color:black;
+}
+
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
+
+.QR
+{
+    display :flex;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+    margin: 15px;
+    padding: 0;
+    
+}
+
+.QR img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
